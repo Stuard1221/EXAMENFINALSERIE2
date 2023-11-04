@@ -15,6 +15,7 @@ import com.example.onboardingapp.onBoardViews.MainOnBoarding
 import com.example.onboardingapp.ui.theme.OnBoardingAppTheme
 import com.example.onboardingapp.views.SplashScreen
 
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

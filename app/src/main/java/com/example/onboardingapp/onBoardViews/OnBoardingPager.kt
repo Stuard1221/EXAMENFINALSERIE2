@@ -65,15 +65,18 @@ fun OnBoardingPager(
             PagerIndicator(item.size, pagerState.currentPage)
         }
         Box(modifier = Modifier.align(Alignment.BottomCenter)) {
-            buttonFinish(pagerState.currentPage, navController, store)
+            buttonFinish(navController, store)
         }
     }
 }
 
-fun buttonFinish(currentPage: Int, navController: NavController, store: StoreBoarding) {
-
-
+fun buttonFinish(navController: NavController, store: StoreBoarding) {
+    TODO("Not yet implemented")
 }
+
+
+
+
 
 
 
